@@ -88,7 +88,7 @@ and Blueprint http://www.blueprintcss.org/
     font-size: 4vw;
     font-weight: 900;
     padding: 20px 20px 0 20px;
-    margin: 20px 20px 20px 20px;
+    /*margin: 20px 20px 20px 20px;*/
     color: #201453;
     -webkit-font-smoothing: antialiased;
     line-height: 1.2em;
@@ -247,11 +247,12 @@ input,
 select,
 textarea {
 	color: #000;
-	font-family: Merriweather, serif;
+	font-family: Montserrat, Merriweather, serif;
 	font-size: 16px;
 	line-height: 1.5;
 	-ms-word-wrap: break-word;
 	word-wrap:     break-word;
+	overflow: hidden;
 }
 h1,
 h2,

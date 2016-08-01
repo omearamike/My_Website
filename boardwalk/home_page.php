@@ -24,7 +24,7 @@ body {
 
 
 <div class="content-p">
-<p> Hello! I’m Mike O'Meara, Indepe Web Developer and problem solver. I enjoy making the immpossible a reality through the use of the web technologys. </p>
+<p> Hello! I’m Mike O'Meara, Independent Web Developer and problem solver. I enjoy making the impossible a reality through the use of the web technologies. </p>
 </div>
 
 <div class="content-container homeMenu" data-content-id="content_dok7p8bzd" data-content-type="content-img">
@@ -44,7 +44,7 @@ body {
         'show_count' => false,
         // 'exclude'    => array( 1 ),
         'title_li'            => __( '' ),
-        'child_of'            => 8
+        'child_of'            => 2
     ) ); ?>
 </ul>
 </div>
