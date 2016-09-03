@@ -84,10 +84,10 @@ and Blueprint http://www.blueprintcss.org/
 	stroke: #201453 !important;
 }
 
-.content-p p {
+.content-p h1 {
     font-size: 4vw;
     font-weight: 900;
-    padding: 20px 20px 0 20px;
+    padding: 20px 25px 0 25px;
     /*margin: 20px 20px 20px 20px;*/
     color: #201453;
     -webkit-font-smoothing: antialiased;
@@ -99,11 +99,29 @@ and Blueprint http://www.blueprintcss.org/
     width: 100%;
 }
 
+.jumbotron_home {
+  background-color: #fc5158;
+  height: 100vh;
+  width: auto;
+  /*padding-top: 40px;
+  padding-left: 40px;*/
+}
+
+.jumbotron_clicker {
+  background-color: #fc5158;
+  height: 100vh;
+  width: auto;
+  /*padding-top: 40px;
+  padding-left: 40px;*/
+}
+
 
 .homeMenu {
 	background-color: #201453;
 	height: 100vh;
 	width: auto;
+	border-bottom: #10b0b8 solid 2px;
+	border-top: white solid 2px;
 }
 
 .homeMenu ul {
@@ -111,13 +129,13 @@ and Blueprint http://www.blueprintcss.org/
 	font-size: 4vw;
 	font-weight: 900;
 	padding: 20px 20px 0 20px;
-	margin: 20px 20px 20px 20px;
+	/*margin: 20px 20px 20px 20px;*/
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.2em;
 	position: relative;
-	top: 50%;
+	top: 20%;
 	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(0%);
 	width: 100%;
 	text-align: center;
 	list-style: none;
@@ -161,7 +179,7 @@ html {
 	box-sizing:         inherit;
 }
 body {
-	background: #fff;
+	background-color: #fc5158;
 }
 article,
 aside,
@@ -260,7 +278,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Lato, sans-serif;
+	font-family: Montserrat, Merriweather, serif;
 	font-weight: bold;
 }
 h1,
@@ -700,7 +718,7 @@ input[type="submit"].search-submit {
 	min-height: 49px;
 	background: #fc5158;
 	/*border-top: 1px solid #d9d9d9;*/
-	color: rgba(0, 0, 0, 0.6);
+	color: #201453;
 }
 .site-footer a {
 	border-bottom: 0;
@@ -727,6 +745,7 @@ input[type="submit"].search-submit {
 /*--------------------------------------------------------------
 7.0 Navigation
 --------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
 7.1 Links
 --------------------------------------------------------------*/
@@ -3004,11 +3023,22 @@ hr,
 20.0 Responsive
 --------------------------------------------------------------*/
 @media screen and (max-width: 800px) {
-	.content-p p {
+	.content-p h1 {
 		font-size: 8vw;
 		letter-spacing: -1px;
 		line-spacing: 4em;
 	}
+}
+
+@media screen and (max-width: 500px) {
+	.site-footer {
+		font-size: 4vw;
+	}
+
+	.homeMenu ul {
+		font-size: 7vw;
+	}
+
 }
 
 /*--------------------------------------------------------------
@@ -3074,7 +3104,9 @@ hr,
 		width: 50%;
 		color: #201453;
 		text-align: left;
-		font-weight: 200;
+		font-weight: 100;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 	.social-navigation + .site-info:before {
 		display: none;

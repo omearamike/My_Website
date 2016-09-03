@@ -26,8 +26,6 @@
 			</nav><!-- .social-navigation -->
 		<?php endif; ?>
 		<div class="site-info">
-			<!-- <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'cubic' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'cubic' ), 'WordPress' ); ?></a> -->
-		 	<!-- <span class="sep"> | </span> -->
 			<?php printf('Site Designed and Developed: Mike O\'Meara' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

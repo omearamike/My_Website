@@ -15,9 +15,8 @@
 		<div class="entry-meta">
 			<?php boardwalk_entry_meta(); ?>
 		</div><!-- .entry-meta -->
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		r
 	</header><!-- .entry-header -->
-
 	<div class="entry-content">
 		<!-- EDIT Added Title  -->
 		<div class="contentTitle">

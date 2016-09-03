@@ -145,8 +145,8 @@ h6,
 .page-links {
 	font-family: Montserrat, sans-serif;
 	font-weight: normal;
-	text-transform: uppercase;
-	letter-spacing: 0.0625em;
+	/*text-transform: uppercase;*/
+	/*letter-spacing: 0.0625em;*/
 }
 h1 a,
 h2 a,
