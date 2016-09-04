@@ -84,7 +84,14 @@ and Blueprint http://www.blueprintcss.org/
 	stroke: #201453 !important;
 }
 
-.content-p h1 {
+.jumbotron {
+  height: 100vh;
+  width: auto;
+  /*padding-top: 40px;
+  padding-left: 40px;*/
+}
+
+.home_pg h1 {
     font-size: 4vw;
     font-weight: 900;
     padding: 20px 25px 0 25px;
@@ -99,13 +106,39 @@ and Blueprint http://www.blueprintcss.org/
     width: 100%;
 }
 
-.jumbotron_home {
-  background-color: #fc5158;
-  height: 100vh;
-  width: auto;
-  /*padding-top: 40px;
-  padding-left: 40px;*/
+.project_pg h1 {
+    font-size: 6vw;
+    font-weight: 900;
+    padding: 20px 25px 0 25px;
+    /*margin: 20px 20px 20px 20px;*/
+    color: #113148;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.2em;
+    position: relative;
+    /*top: 50%;*/
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+    width: 100%;
+		text-align: center;
+		padding-top: 70px;
 }
+
+.project_pg p {
+	text-align: center;
+	color: #ecf0f1;
+	font-weight: lighter;
+	font-style: normal;
+	font-variant-ligatures: normal;
+	font-variant-caps: normal;
+	font-variant-numeric: normal;
+	font-weight: lighter;
+	font-stretch: ultra-expanded;
+	font-size: 1.5em;
+	line-height: normal;
+	padding: 5px 50px 0px 50px;
+	-webkit-font-smoothing: antialiased;
+}
+
 
 .jumbotron_clicker {
   background-color: #fc5158;
@@ -3023,7 +3056,7 @@ hr,
 20.0 Responsive
 --------------------------------------------------------------*/
 @media screen and (max-width: 800px) {
-	.content-p h1 {
+	.home .content h1 {
 		font-size: 8vw;
 		letter-spacing: -1px;
 		line-spacing: 4em;
@@ -3038,6 +3071,19 @@ hr,
 	.homeMenu ul {
 		font-size: 7vw;
 	}
+
+	.project_pg p {
+		font-size: .8em;
+		padding: 10px 0 0 0;
+	}
+
+	.project_pg h1 {
+		font-size: 1.9em;
+		padding: 0px;
+		padding-top: 30px;
+	}
+
+
 
 }
 
@@ -3218,7 +3264,8 @@ hr,
 	body.page .entry-title,
 	body.single .entry-title,
 	.page-title {
-		font-size: 2.25em;
+		font-size: 4.25em;
+		/*font-size: 2.25em;*/
 		line-height: 1.333334;
 	}
 	.page-title {
