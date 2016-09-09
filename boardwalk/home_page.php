@@ -6,11 +6,15 @@ Template Name: Cover  Page
 
 <?php get_header(); ?>
 
+<style>
+.jumbotron .home_pg {
+  background-color: #fc5158;
+}
+</style>
 
 
-
-<div class="content-p jumbotron_home">
-  <h1> Hello! I’m Mike O'Meara, Independent Web Developer and problem solver. I enjoy making the impossible a reality through the use of the web technologies. </h1>
+<div class="jumbotron home_pg content">
+<h1> Hello! I’m Mike O'Meara, Independent Web Developer and problem solver. I enjoy making the impossible a reality through the use of the web technologies. </h1>
 </div>
 
 <div class="content-container homeMenu" data-content-id="content_dok7p8bzd" data-content-type="content-img">

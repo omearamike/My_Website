@@ -83,6 +83,17 @@ endif; // boardwalk_setup
 add_action( 'after_setup_theme', 'boardwalk_setup' );
 
 /**
+ * 
+ *
+ * Adds fontawesome libary
+ */
+//enqueues our locally supplied font awesome stylesheet
+function enqueue_our_required_stylesheets(){
+	wp_enqueue_style('font-awesome', get_stylesheet_directory_uri() . '/css/font-awesome.css');
+}
+add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
+
+/**
  * Register widget area.
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar

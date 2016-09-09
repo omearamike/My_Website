@@ -139,6 +139,42 @@ and Blueprint http://www.blueprintcss.org/
 	-webkit-font-smoothing: antialiased;
 }
 
+.project_pg .projLink {
+	text-align: center;
+	color: #ecf0f1;
+	font-weight: lighter;
+	font-style: normal;
+	font-variant-ligatures: normal;
+	font-variant-caps: normal;
+	font-variant-numeric: normal;
+	font-weight: lighter;
+	font-stretch: ultra-expanded;
+	font-size: 1.5em;
+	line-height: normal;
+	padding: 5px 50px 0px 50px;
+	-webkit-font-smoothing: antialiased;
+	border-bottom: none;
+}
+
+.iconLink:before {
+	/*content: 'f107';*/
+width: 24px;
+height: 24px;
+text-align: center;
+font-family: 'icons';
+font-size: 24px;
+display: block;
+text-indent: 0;
+color: red;
+text-decoration: inherit;
+font-variant: normal;
+line-height: 24px;
+-webkit-transition: all .25s ease-out;
+transition: all .25s ease-out;
+}
+
+
+
 
 .jumbotron_clicker {
   background-color: #fc5158;
@@ -172,6 +208,63 @@ and Blueprint http://www.blueprintcss.org/
 	width: 100%;
 	text-align: center;
 	list-style: none;
+}
+
+.gif {
+	width: auto;
+	height: 100%;
+	padding: 0 0 0 0;
+	margin-left: -180px;
+	margin-right: -180px;
+	/* left: 30px; */
+	/* margin-left: 0px; */
+	/* left: 0px; */
+	/* align-content: center; */
+	position: relative;
+	display: block;
+	transform: translateX(0) translateY(-50%);
+	/*border: 20px #3598dc solid;*/
+	-webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+.rollover .bt-url:before {
+    content: '\e819';
+    display: block;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    font-family: 'icons';
+    font-size: 22px;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+    text-decoration: inherit;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.75);
+
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+		text-align: center;
+}
+
+.blog-content {
+	background-color: #ecf0f1;
+	color: #34495e;
+	padding: 0px 20% 30px 20%;
+	/*position: absolute;*/
+
+}
+
+.blog-content p {
+	margin-bottom: 0px;
+	color: #34495e;
+	text-align: justify;
+	/*position: absolute;*/
+}
+.blog-post {
+	position: relative;
 }
 /*--------------------------------------------------------------
 1.0 Reset
